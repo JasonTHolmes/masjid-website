@@ -43,21 +43,55 @@ header{
 /* ------------------------------------------------------------------------------ */
 /* ------------------------------------NAVIGATION------------------------------------ */
 /* ------------------------------------------------------------------------------ */
-/* nav img {
-    float: left;
-} */
+nav {
+    margin: 0 auto;
+    display: block;
+}
 
-nav{
+
+
+nav img {
+    height: 75px;
+    padding: 0;
+    display: inline-block;
+}
+
+ul {
     float: right;
 }
 
 li {
     list-style: none;
-    padding: 10px;
+    padding: 10px 25px;
     float: left;
 }
 
 a {
     text-decoration: none;
-    float: right;
+    color: #f5f5f5;
 }
+
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------HEADER-TEXT------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+
+
+.header-text {
+    /* height: 500px;
+    width: 500px; */
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    display: inline-block;
+    border: 2px solid green;
+    margin: 0 auto;
+}
+.header-text h2 {
+    font-size: 400%;
+    color: cornsilk;
+}
+
+
+
+
+
