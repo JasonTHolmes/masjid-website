@@ -51,18 +51,20 @@ nav {
 
 
 nav img {
-    height: 75px;
-    padding: 0;
+    height: 100px;
+    width: auto;
+    margin: 20px 40px;
     display: inline-block;
 }
 
 ul {
+    margin: 0 50px;
     float: right;
 }
 
 li {
     list-style: none;
-    padding: 10px 25px;
+    padding: 40px 40px;
     float: left;
 }
 
@@ -83,7 +85,6 @@ a {
     left: 20%;
     top: 50%;
     display: inline-block;
-    border: 2px solid green;
     margin: 0 auto;
 }
 .header-text h2 {
@@ -92,6 +93,18 @@ a {
 }
 
 
-
-
+/* ------------------------------------------------------------------------------ */
+/* ------------------------------------BUTTON------------------------------------ */
+/* ------------------------------------------------------------------------------ */
+button {
+    background-color: rgb(118, 219, 126);
+    font-size: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
 
